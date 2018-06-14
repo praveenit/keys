@@ -1,0 +1,30 @@
+Spring Actuator
+
+add dependency
+by default it is secure
+Spring 2.0 has significant chagnes to actuator
+
+
+/mappings
+env, beans, 
+metrics - App perf monitoring tool(APM) is used here
+- gauges
+- counters
+
+/health
+- may not check DB connection accurately. Doesnt connects db.
+
+
+add to build.gradle
+springBoot {
+    buildInfo()
+}
+
+Micrometer
+java buildpack has APM agents
+JMX - java management extension
+pull based
+
+since these are non functional use apects to decuople APM logic
+
+transactional anotations for DB---??
