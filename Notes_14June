@@ -37,3 +37,21 @@ Spring Security
 turning on secuirity for tests
 - test will fail when sec is enabled
 - add credentials in http rest header
+
+
+Application Continuum
+
+- making code evolvable for any developer
+Naming
+Organizing
+Remove Circular Dependencies
+
+Robert Martin
+Agile Software Development
+- book about code structure
+Solid Principles
+
+seige - generate multiple requests
+
+
+
