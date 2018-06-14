@@ -28,3 +28,12 @@ pull based
 since these are non functional use apects to decuople APM logic
 
 transactional anotations for DB---??
+
+Spring Security
+-Basic Auth
+-SingleSignOn/LDAP
+-OAuth
+
+turning on secuirity for tests
+- test will fail when sec is enabled
+- add credentials in http rest header
